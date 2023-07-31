@@ -1,0 +1,957 @@
+* {
+font-family: "Inter", sans-serif;
+font-weight: 600;
+}
+
+.container {
+    width: 1215px;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+
+/* ----------MALIK---------- */
+/*Blog Hero Start*/
+
+.blogHero {
+    background: #F8F9FB;
+}
+
+.blogHero .container {
+    padding: 0;
+}
+
+.blogPageHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.headerList {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navbar li a {
+    font-size: 15px;
+    line-height: 22px;
+    color: #272D37;
+}
+
+.navbar li:nth-child(3) a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.iconsMenu {
+    display: none;
+}
+
+.blogHero hr {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.blogHeroText {
+    padding: 80px 0 92px;
+    text-align: center;
+}
+
+.blogHeroText h1 span {
+    display: none;
+}
+
+.blogHeroText h3 {
+    color: #437EF7;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    padding-bottom: 16px;
+}
+
+.blogHeroText h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+    width: 640px;
+    letter-spacing: -0.01em;
+    margin: 0 auto;
+}
+
+.blogPageHeader .buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.blogPageHeader .buttons a {
+    color: #437EF7;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.blogPageHeader .buttons .logIn {
+    background: #437EF7;
+    color: #fff;
+    padding: 12px 18px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+}
+
+/*Blog Hero end*/
+/* ----------MALIK END---------- */
+
+/* ---------------BANU------------------ */
+
+/* Blog Post Reach start */
+
+.blogPostReachContainer{
+    display: flex;
+    gap: 40px;
+}
+
+.blogPostReachBase {
+    flex-basis:60% ;
+}
+.blogPostReachBase img{
+    width: 100%;
+    padding-bottom: 24px;
+
+}
+.blogPostReachBase h2 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 16px;
+    width: 100%;
+    letter-spacing: -0.01em;
+}
+
+.blogPostReachBaseText{
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    padding-bottom: 16px;
+}
+.history{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    padding-bottom: 32px;
+}
+.blogPostReachVertikalContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.blogPostReachVertikalContainerCards {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+.blogPostReachBaseTextSpan {
+    display: block;
+    font-weight: 400;
+}
+.imgHeihgtAlt {
+    width: 188px;
+}
+.blogPostReachVertikalContainerCardsTexts h2 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    padding-bottom: 4px;
+}
+.blogPostReachVertikalContainerCardsText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    padding-bottom: 16px;  
+}
+.cardsTextHistory {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+}
+
+.imgSize {
+    width: 343px;
+    height: 211px;
+}
+
+/* Blog Post Reach end */
+
+/* ---------------BANU------------------ */
+
+
+/* callToActionMail start */
+
+.callToActionMail {
+    background: #2B63D9;
+}
+.callToActionMailContent {
+    flex-basis: 60%;
+}
+.callToActionMailItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.callToActionMailContent h1{
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    width: 100%;
+}
+.callToActionMailContent p {
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    color: #B1CCFB;
+    padding-bottom: 32px;
+    width: 100%;
+}
+.callToActionMailButton {
+    display: flex;
+}
+.callToMAilInput {
+    padding: 12px 16px;
+    width: 476px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    border: 1px;
+    border-radius: 6px 0px 0px 6px;
+}
+.callToActionMailButton button {
+    padding: 12px 18px;
+    width: 88px;
+    background: #437EF7;
+    border: 1px;
+    color: #fff;
+    border-radius: 0px 6px 6px 0px;
+}
+.subcribeTablet {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #B1CCFB;
+}
+/* callToActionMail End */
+
+/* ---------------BANU------------------ */
+
+
+/* blogPostBlog start */
+
+.blogCardsSection2 {
+    display: flex;
+    gap: 32px;
+}
+.blogHeader p {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding-bottom: 64px;
+}
+.blogCards {
+    display: flex;
+    gap: 32px;
+}
+.card p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    padding-bottom: 8px;
+    padding-top: 16px;
+
+}
+.card span {
+    display: none;
+}
+.card h1 {
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    padding-bottom: 16px;
+}
+.card button {
+    font-size: 15px;
+    line-height: 22px;
+    border: 0;
+    background: white;
+    color: #437EF7;
+    padding-bottom: 32px;
+}
+.blogCardsSection2 {
+    display: flex;
+}
+
+
+/* blogPostBlog end */
+
+/* ---------------BANU------------------ */ 
+
+
+
+
+/* ----------MALIK---------- */
+/* callToAction */
+.callToAction {
+    background: #2B63D9;
+}
+
+.callToAction .content {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.callToAction h5 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.callToAction h2 {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.callToAction .button {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    background: #fff;
+    padding: 12px 18px;
+    border-radius: 6px;
+    margin-top: 32px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.callToAction .btnLogin {
+    display: none;
+}
+/* callToAction end */
+
+/* footer */
+.footer {
+    background: #151B28;
+}
+
+.footerUpper {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogoContent {
+    margin-bottom: 24px;
+}
+
+.footerLogoContent a img {
+    width: 160px;
+    height: 40px;
+}
+
+.footerLogoContent p {
+    padding: 16px 0;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    color: #A5ACBA;
+    width: 309px;
+}
+
+.footerLogoContent input {
+    padding: 12px 16px;
+    background: #2C3444;
+    border: 1px solid #2E3545;
+    border-radius: 6px 0px 0px 6px;
+    outline: none;
+    color: #fff;
+}
+
+.footerLogoContent .inputs {
+    display: flex;
+    padding-bottom: 28px;
+}
+
+.footerLogoContent input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: #A5ACBA;
+}
+
+.footerLogoContent .inputs .button {
+    font-size: 15px;
+    line-height: 22px;
+    background: #437EF7;
+    border-radius: 0px 6px 6px 0px;
+    padding: 14px 18px;
+}
+
+
+.footerContets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 24px;
+    gap: 24px 64px;
+}
+
+.footerContets li a{
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    color: #A5ACBA;
+}
+
+.footerContets li:first-child a {
+    font-weight: 600;
+    color: #F9F9F9;
+}
+
+.footerContets li {
+    margin-bottom: 12px;
+}
+
+.footerContets li:first-child {
+    margin-bottom: 24px;
+}
+
+.footerContets li:last-child {
+    margin-bottom: 0;
+}
+
+.footerUnder p {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #A5ACBA;
+    padding-top: 32px;
+    border-top: 1px solid #2E3545;
+}
+/* footer end */
+/* ----------MALIK END---------- */
+
+
+
+
+
+@media (min-width: 704px) and (max-width: 1214px) {
+
+    .container {
+        width: 100%;
+        padding: 40px 32px;
+    }
+
+    /* ----------MALIK---------- */
+    /*Blog Hero Start*/
+
+    .blogPageHeader {
+        padding: 20px 16px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .iconsMenu {
+        display: block;
+    }
+
+    .blogHeroText {
+        padding: 48px 0 88px;
+    }
+
+    .blogHeroText h1 span {
+        display: inline-block;
+    }
+
+    .blogHeroText h3 {
+        padding-bottom: 0;
+    }
+
+    .blogHeroText h1 {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 60px;
+        width: 672px;
+    }
+
+    .blogPageHeader .buttons {
+        display: none;
+    }
+    /*Blog Hero end*/
+    /* ----------MALIK END---------- */
+
+
+    /* ---------------BANU------------------ */
+
+    /*Blog Pos Reach Start*/
+
+    .blogPostReachBase img {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+    .blogPostReachBase h2 {
+        padding-bottom: 12px;
+        margin-top: 0;
+    }
+    .spanReach {
+        display:block;
+    }
+    .blogPostReachBaseText{
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .blogPostReachBase span {
+        display: none;
+    }
+    .blogPostReachVertikalContainerCards img {
+        width: 188px;
+    }
+    .blogPostReachVertikalContainerCardsTexts h2 {
+        font-weight: 500;
+    }
+    .blogPostReachBaseTextSpan {
+        display: block;
+        font-weight: 400;
+        padding-bottom: 16px;
+    }
+    .blogPostReachVertikalContainerCardsTexts p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        color: #5F6D7E;
+        padding-bottom: 16px;
+    }
+    .blogPostReachContainer {
+    flex-direction: column;
+    }
+    .blogPostReachVertikalContainerCards img {
+        width: 188px;
+    }
+
+    /*Blog Post React End */
+
+    /* ---------------BANU------------------ */
+
+    /*Call To Action Mail Start*/
+
+    .callToActionMailItem {
+        display: block;
+    }
+    .callToActionMailContent h1{
+        padding-bottom: 16px;
+    }
+    .callToActionMailContent p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .callToActionMailButton {
+        padding-bottom: 8px;
+    }
+
+    /* callToActionMail End */
+
+    /* ---------------BANU------------------ */
+
+    /* Blog Post Blog start */
+
+    .blogHeader p {
+        font-weight: 700;
+        line-height: 40px;
+        padding-bottom: 32px;
+    }
+    .cardHead {
+        display: none;
+    }
+    .cardEnd {
+        display: none;
+    }
+    .card p {
+        padding-bottom: 8px;
+    }
+    .card span {
+        display: none;
+    }
+    .blogCardsSection2 { 
+        display: flex;
+        gap: 32px;
+    }
+
+    /* Blog Post Blog end */
+
+    /* ---------------BANU------------------ */
+
+
+
+
+    /* ----------MALIK---------- */
+    /* callToAction */
+
+    .callToAction .content {
+        width: 100%;
+    }
+
+    .callToAction h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .callToAction .btnLogin {
+        background: #437EF7;
+        color: #fff;
+        display: inline-block;
+    }
+    /* callToAction end */
+
+    /* footer */
+    .footerUpper {
+        margin-bottom: 32px;
+        display: block;
+    }
+
+    .footerLogoContent p {
+        width: 100%;
+    }
+
+    .footerLogoContent input {
+        width: 462px;
+    }
+
+    .footerLogoContent .inputs {
+        padding-bottom: 68px;
+    }
+
+
+    .footerContets {
+        gap: 64px;
+    }
+
+    .footerUnder p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 32px;
+    }
+
+    /* footer end */
+    /* ----------MALIK END---------- */
+}
+
+
+
+
+
+
+@media (min-width: 345px) and (max-width: 704px) {
+
+    .container {
+        width: 100%;
+        padding: 32px 16px;
+    }
+
+    /* ----------MALIK---------- */
+    /*Blog Hero Start*/
+
+    .blogPageHeader {
+        padding: 20px 16px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .iconsMenu {
+        display: block;
+    }
+
+    .blogHeroText {
+        padding: 32px 0 40px;
+    }
+
+    .blogHeroText h1 span {
+        display: inline-block;
+    }
+
+    .blogHeroText h3 {
+        padding-bottom: 32px;
+    }
+
+    .blogHeroText h1 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        width: 100%;
+        letter-spacing: -0.02em;
+    }
+
+    .blogPageHeader .buttons {
+        display: none;
+    }
+    /*Blog Hero end*/
+    /* ----------MALIK END---------- */
+
+
+
+    /* ---------------BANU------------------ */
+ 
+    /* Blog Post Reach start */
+
+    .blogPostReachContainer{
+        width: 100%;
+        flex-direction: column;
+    }
+    .blogPostReachBase img {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+    .blogPostReachBase h2 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+    }
+    .spanReach {
+        display: none;
+    }
+    .blogPostReachBaseText{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .blogPostReachVertikalContainer img {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+    
+    .blogPostReachVertikalContainerCards {
+        flex-direction: column;
+    }
+
+    .blogPostReachVertikalContainerCards h2 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+    }
+    
+    /* Blog Post Reach End */
+
+
+    /* ---------------BANU------------------ */
+
+
+
+    /*Call To Action Mail start*/
+    
+    .callToActionMailItem {
+        display: block;
+    }
+    .callToActionMailContent h1{
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        padding-bottom: 16px;
+    }
+    .callToActionMailContent p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 24px;
+    }
+    .callToMAilInput {
+        width: 100%;
+        height: 46px;
+        border-radius: 6px;
+        margin-bottom: 16px;
+    }
+    .callToActionMailButton {
+        display: block;
+        width: 100%;
+    }
+    .callToActionMailButton button {
+        width: 100%;
+        height: 48px;
+        border-radius: 6px;
+    }
+    .subcribeTablet {
+        display: none;
+    }
+
+    /* callToActionMail End */
+
+    /* ---------------BANU------------------ */
+
+    /* Blog Post Blog Start */
+
+    .blogHeader p {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        padding-bottom: 24px;
+    }
+    .blogCards {
+        display: none;
+    }
+    .blogCardsSection2 {
+        display: block;
+    }
+    .card img {
+        width: 100%;
+        padding-bottom: 16px;
+    }
+    .card h1 {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+    }
+ 
+    /*Blog Post Blog end*/
+
+    /* ---------------BANU------------------ */
+
+
+    
+    /* ----------MALIK---------- */
+    /* callToAction */
+
+    .callToAction .content {
+        width: 100%;
+    }
+
+    .callToAction h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .callToAction .button {
+        padding: 12px 0;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .callToAction .btnLogin {
+        background: #437EF7;
+        color: #fff;
+        padding: 13px 0;
+        display: inline-block;
+    }
+    /* callToAction end */
+
+    /* footer */
+    .footerUpper {
+        margin-bottom: 24px;
+        display: block;
+    }
+
+    .footerLogoContent {
+        margin-bottom: 24px;
+    }
+
+    .footerLogoContent a img {
+        width: 160px;
+        height: 40px;
+    }
+
+    .footerLogoContent p {
+        padding: 16px 0;
+        font-weight: 400;
+        letter-spacing: -0.1px;
+        color: #A5ACBA;
+        width: 100%;
+    }
+
+    .footerLogoContent input {
+        padding: 12px 16px;
+        background: #2C3444;
+        border: 1px solid #2E3545;
+        border-radius: 6px 0px 0px 6px;
+        outline: none;
+        color: #fff;
+    }
+
+    .footerLogoContent .inputs {
+        display: flex;
+        padding-bottom: 28px;
+    }
+
+    .footerLogoContent input::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.1px;
+        color: #A5ACBA;
+    }
+
+    .footerLogoContent .inputs .button {
+        font-size: 15px;
+        line-height: 22px;
+        background: #437EF7;
+        border-radius: 0px 6px 6px 0px;
+        padding: 14px 18px;
+    }
+
+
+    .footerContets {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 24px;
+        gap: 24px 64px;
+    }
+
+    .footerContets li a{
+        font-weight: 500;
+        letter-spacing: -0.1px;
+        color: #A5ACBA;
+    }
+
+    .footerContets li:first-child a {
+        font-weight: 600;
+        color: #F9F9F9;
+    }
+
+    .footerContets li {
+        margin-bottom: 12px;
+    }
+
+    .footerContets li:first-child {
+        margin-bottom: 24px;
+    }
+
+    .footerContets li:last-child {
+        margin-bottom: 0;
+    }
+
+    .footerUnder p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 24px;
+    }
+    /* footer end */
+    /* ----------MALIK END---------- */
+
+}

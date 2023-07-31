@@ -1,0 +1,958 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+/*section1 start*/
+.section1 {
+  height: 530px;
+  background: url("../img/backgroundHeader.png") center center / cover;
+}
+
+/*section1 end*/
+
+/*container1 start*/
+
+.containerTop {
+  margin: 0 auto;
+  width: 1215px;
+  padding: 20px 0;
+}
+
+.header {
+  display: flex;
+  gap: 69px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  gap: 69px;
+}
+
+.logoHeader {
+  width: 150px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+  font-size: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 32px;
+  color: white;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  gap: 24px;
+}
+
+.signUp {
+  color: #437ef7;
+  margin-top: 32px;
+  font-size: 15px;
+}
+
+.logIn {
+  color: white;
+  background-color: #437ef7;
+  width: 80px;
+  height: 46px;
+  border-radius: 6px;
+  border: 1px #434ccc;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 9px;
+}
+
+/*container1 end*/
+
+/*containerText start*/
+
+.containerText {
+  text-align: center;
+  margin-top: 68px;
+}
+
+.containerText span {
+  display: none;
+}
+
+.containerText h1 {
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  padding-bottom: 24px;
+}
+
+.containerText p {
+  color: white;
+  width: 640px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.buttonGetStarted {
+  height: 46px;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 6px;
+  padding: 12px 18px 12px 18px;
+  background-color: rgba(67, 126, 247, 1);
+  color: #fff;
+  border: 1px #434ccc;
+}
+
+/*containerText end*/
+
+/*section1 end*/
+
+/*section2 start*/
+
+.section2 {
+  background: rgba(255, 255, 255, 1);
+  width: 1215px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  gap: 140px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/*contentText start*/
+.contentText h4 {
+  color: rgba(67, 126, 247, 1);
+  font-size: 14px;
+  letter-spacing: -0.10000000149011612px;
+  margin-top: 180px;
+  margin-bottom: 8px;
+  height: 20px;
+  width: 146px;
+}
+
+.contentText h1 {
+  width: 516px;
+  padding-bottom: 16px;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+}
+
+.contentText p {
+  height: 72px;
+  width: 516px;
+  font-weight: 400;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  margin-bottom: 40px;
+}
+
+.buttonAll {
+  background: #437ef7;
+  color: #fff;
+  border-radius: 6px;
+  padding: 12px 40px 12px 18px;
+  border: 1px #434ccc;
+  margin-bottom: 64px;
+  height: 46px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.arrowIcon {
+  position: absolute;
+  margin-top: -91px;
+  margin-left: 100px;
+  width: 13px;
+}
+
+/*contentText end*/
+
+/*section2 end*/
+
+.container333 {
+  width: 1215px;
+  margin: 0 auto;
+  display: flex;
+  padding: 12px 18px;
+  gap: 80px;
+  padding: 64px 0 64px;
+}
+
+.mobTabImg {
+  display: none;
+}
+
+.industry h4 {
+  margin-bottom: 8px;
+  color: rgba(67, 126, 247, 1);
+
+}
+
+.industry p {
+  color: rgba(95, 109, 126, 1);
+  font-weight: 400;
+  margin-bottom: 58px;
+}
+
+.industry h1 {
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 42px;
+  color: rgba(39, 45, 55, 1);
+  font-size: 32px;
+}
+
+.industry {
+  width: 526px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.start {
+  color: white;
+  background-color: #437ef7;
+  border-radius: 6px;
+  padding: 12px 18px 12px 18px;
+  border: none;
+  width: 133px;
+}
+
+/* MALIK--------------- */
+
+/* stairsImg */
+.stairsImg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* stairsImg end */
+
+/* stairsImg */
+.stairsImg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* stairsImg end */
+
+/* innerPageHeader */
+.innerPageNav {
+  background: #f8f9fb;
+}
+
+.innerPageNav .container {
+  width: 1215px;
+  margin: 0 auto;
+  padding: 64px 0 32px;
+}
+
+.innerPageHeader {
+  margin-bottom: 48px;
+}
+
+.innerPageHeader h5 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #437ef7;
+  letter-spacing: -0.1px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.innerPageHeader h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.innerPageHeader p {
+  font-weight: 400;
+  color: #5f6d7e;
+  letter-spacing: -0.1px;
+  text-align: center;
+}
+
+/* innerPageHeader end */
+
+/* dropdowns */
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdowns p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  margin-bottom: 8px;
+}
+
+.dropdown input {
+  width: 320px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  outline: none;
+  border: 0;
+}
+
+.inputs {
+  border: 1px solid #dae0e6;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  width: 384px;
+  padding: 12px 13px 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+/* dropdowns end */
+
+/* webTable */
+.webTable {
+  background: #f8f9fb;
+}
+
+.webTable .container {
+  width: 1215px;
+  margin: 0 auto;
+}
+
+.tables {
+  padding: 32px 0 64px;
+}
+
+.tables:first-child {
+  padding: 0;
+}
+
+/* headerSection */
+.headerSection {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerSectionLeft h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+}
+
+.headerSectionLeft p {
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.headerSectionRight a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #437ef7;
+}
+
+/* table */
+.table {
+  background: #fff;
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.tableHeader h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+  padding: 20px 0;
+  padding-left: 32px;
+}
+
+.tableRow {
+  border-top: 1px solid #eaebf0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+}
+
+.tableRow .text {
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  padding: 16px 0;
+  padding-left: 32px;
+}
+
+.tableRow .text span {
+  font-weight: 400;
+  color: #5f6d7e;
+}
+
+.tableRow p {
+  padding-left: 32px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+}
+
+.tableRow p:first-child {
+  padding-left: 0;
+
+}
+
+/* webTable end */
+
+/* MALIK--------------- */
+
+
+/* GURBET--------------- */
+.footer {
+  background-color: rgba(21, 27, 40, 1);
+
+}
+
+.footer2 {
+  padding-top: 70px;
+  margin: 0 auto;
+  width: 1215px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2E3545;
+  padding-bottom: 24px;
+}
+
+.footerLogo img {
+  margin-bottom: 32px
+}
+
+.footerLogo p {
+  color: #A5ACBA;
+  font-weight: 400;
+  width: 247px;
+}
+
+.events {
+  color: #A5ACBA;
+}
+
+.events li {
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.resources h4 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #F9F9F9;
+  margin-bottom: 24px;
+}
+
+.products h4 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #F9F9F9;
+  margin-bottom: 24px;
+
+}
+
+.get h4 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #F9F9F9;
+  margin-bottom: 24px;
+}
+
+.get p {
+  color: #A5ACBA;
+  font-weight: 400;
+  width: 302px;
+  margin-bottom: 28px;
+}
+
+.get a {
+  color: white;
+  background-color: #437ef7;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 12px 18px 12px 18px;
+  border: none;
+  width: 214px;
+  font-weight: 400;
+
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1215px;
+  width: 95%;
+  padding: 24px 0 64px;
+
+}
+
+.icons {
+  display: flex;
+  gap: 24px;
+}
+
+.end p {
+  color: #A5ACBA;
+  font-weight: 400;
+  width: 298px;
+  letter-spacing: -0.1px;
+}
+
+.get input {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  width: 214px;
+  height: 46px;
+  background-color: #2C3444;
+  border: none;
+  display: flex;
+  padding: 16px;
+}
+
+.input1 {
+  display: flex;
+  gap: 0;
+  width: 214px;
+  height: 46px;
+  font-weight: 400;
+}
+
+.input1::placeholder {
+  color: rgba(165, 172, 186, 1);
+}
+
+.proRes {
+  display: flex;
+  justify-content: space-between;
+  gap: 166px;
+  width: auto;
+}
+
+/* GURBET--------------- */
+
+
+@media (min-width: 704px) and (max-width: 1214px) {
+  .containerTop {
+    width: 100%;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  .logoHeaderAlt {
+    width: 120px;
+    padding-top: 0;
+  }
+
+  .burgerMenuAlt {
+    display: block;
+    margin-top: 0;
+  }
+
+  .navAlt {
+    display: none;
+  }
+
+  .btnAlt {
+    display: none;
+  }
+
+  .containerText span {
+    display: inline-block;
+  }
+
+  .containerTextAlt h1 {
+    margin: 0 auto;
+  }
+
+  .containerTextAlt p {
+    width: 672px;
+  }
+
+  .section2Alt {
+    width: 100%;
+  }
+
+  .contentAlt {
+    display: inline-block;
+    padding: 32px 40px;
+    width: 100%;
+  }
+
+  .contentTextAlt h4 {
+    margin-top: 40px;
+  }
+
+  .contentTextAlt h1 {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+
+  .contentTextAlt p {
+    width: 100%;
+    height: 48px;
+    padding-bottom: 48px;
+  }
+
+  .contentImageAlt img {
+    width: 100%;
+
+  }
+
+  /* GURBET--------------- */
+  .container333 {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 32px 40px;
+    width: 100%;
+  }
+
+  .containerImg {
+    order: 1;
+  }
+
+  .footer2 {
+    flex-wrap: wrap;
+    width: 704px;
+  }
+
+  .end {
+    width: 704px;
+  }
+
+  .desktopImg {
+    display: none;
+  }
+
+  .mobTabImg {
+    display: block;
+  }
+
+  .proRes {
+    order: 3;
+    gap: 100px;
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .resources {
+    flex: 1;
+  }
+
+  .products {
+    flex: 1;
+  }
+
+  .industry {
+    width: 100%;
+  }
+
+  /* GURBET--------------- */
+
+
+  /* MALIK--------------- */
+
+  /* innerPageHeader */
+  .innerPageNav .container {
+    width: 704px;
+    margin: 0 auto;
+    padding: 32px 0;
+  }
+
+  .dropdown input {
+    width: 100%;
+  }
+
+  .inputs {
+    width: 213.33px;
+  }
+
+  /* innerPageHeader end */
+
+  /* webTabel */
+  .webTabel .container {
+    width: 704px;
+    margin: 0 auto;
+  }
+
+  .tabels {
+    padding: 40px 0;
+  }
+
+  /* webTabel end */
+  /* MALIK--------------- */
+}
+
+@media (min-width: 345px) and (max-width: 704px) {
+  .section1Mobile {
+    width: 100%;
+    height: 466px;
+  }
+
+  .containerTop {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .container1 {
+    width: 100%;
+    padding: 16px 16px;
+  }
+
+  .containerText span {
+    display: inline-block;
+  }
+
+  .logoHeaderMobile {
+    width: 120px;
+    padding-top: 0;
+  }
+
+  .burgerMenuMobile {
+    padding: 10px;
+    display: block;
+    margin-top: 0;
+    margin-right: -10px;
+  }
+
+  .navAlt {
+    display: none;
+  }
+
+  .btnAlt {
+    display: none;
+  }
+
+  .containerTextMobile {
+    margin-top: 32px;
+  }
+
+  .containerTextMobile h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    padding-bottom: 16px;
+  }
+
+  .containerTextMobile p {
+    width: 100%;
+    padding-bottom: 32px;
+    margin: 0;
+  }
+
+  .buttonGetStartedMobile {
+    width: 100%;
+  }
+
+  .section2 {
+    width: 100%;
+  }
+
+  .contentAlt {
+    display: inline-block;
+    margin: 32px 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .contentTextAlt h4 {
+    margin-top: 32px;
+  }
+
+  .contentTextAlt h1 {
+    width: 100%;
+    font-size: 28px;
+    line-height: 36px;
+    padding-bottom: 16px;
+  }
+
+  .contentTextAlt p {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .contentImageMobile img {
+    width: 100%;
+  }
+
+  /* MALIK--------------- */
+  /* innerPageHeader */
+  .innerPageHeader .container {
+    width: 100%;
+  }
+
+  .innerPageNav .container {
+    width: 100%;
+    padding: 32px 15px;
+  }
+
+  .dropdowns {
+    display: block;
+  }
+
+  .dropdown input {
+    width: 247px;
+  }
+
+  .inputs {
+    width: 100%;
+  }
+
+  /* innerPageHeader end*/
+
+  /* webTabel */
+  .webTabel .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .tabels {
+    padding: 40px 0;
+  }
+
+  .tabels:first-child {
+    padding: 40px 0;
+  }
+
+  .tabelPhone {
+    display: none;
+  }
+
+  .tabelHeader {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .tabelHeader h6 {
+    padding: 16px;
+  }
+
+  .tabelRow {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .tabelRow .text {
+    padding: 16px;
+  }
+
+  .tabelRow p {
+    padding-left: 0;
+  }
+
+  .forPhone {
+    text-align: end;
+    padding-right: 32px !important;
+  }
+
+  /* webTabel end */
+  /* MALIK--------------- */
+
+
+  /* GURBET--------------- */
+  .industry {
+    width: 100%;
+  }
+
+  .proRes {
+    gap: 100px;
+    width: 100%;
+  
+  }
+
+  .end {
+    width: 100%;
+    flex-direction: column;
+    padding: 16px 16px 32px;
+  }
+
+  .resources {
+    flex: 1;
+  }
+  .end p {
+    width: 100%;
+  }
+  .products {
+    flex: 1;
+  }
+
+  .footer2 {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 32px 16px 24px ;
+    gap: 24px;
+  }
+
+  .container333 {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 16px 40px;
+    width: 100%;
+    gap: 32px;
+  }
+
+  .icons {
+    justify-content: space-around;
+    padding-top: 16px;
+    width: 100%;
+
+  }
+
+  .containerImg {
+    order: 1;
+    width: 100%;
+  }
+
+  .desktopImg {
+    display: none;
+  }
+
+  .mobTabImg {
+    display: block;
+  }
+
+  .containerImg img {
+    width: 100% !important;
+  }
+
+  /* GURBET--------------- */
+
+}
