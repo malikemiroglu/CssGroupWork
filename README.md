@@ -19,3 +19,4 @@ Bu projede, temel bir web sitesi oluşturmayı hedefledik. Her takım üyesi, ke
 - Farklı dosyaları birleştirerek merge işlemleri yapmakta tecrübe kazanmak.
 - HTML ve CSS becerilerini pratiklemek ve güçlendirmek.
 
+![Team](./assets/img/cssGroupWork.png)
